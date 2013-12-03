@@ -12,3 +12,8 @@ html, body, #main-content {
 	border-bottom: 1px solid #AAA;
 }
 
+#main-content img {
+	width: 20%;
+	display: block;
+}
+
