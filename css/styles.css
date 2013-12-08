@@ -9,34 +9,70 @@ html, body, #main-content {
 	height: 100%;
 }
 
-body {
 
+/* HEADER */
+header {
+	padding: 20px;
+	overflow: hidden;
 }
+
+#logo {
+	float: left;
+	margin-right: 50px;
+}
+
+nav ul {
+	float: left;
+	line-height: 46px;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+} 
+
 
 /* HOME */
 #main-content {
 	border-bottom: 1px solid #AAA;
-	min-height: 800px;
+	min-height: 840px;
+	clear: both;
 }
 
 #the-phone {
 	width: 293px;
 	height: 627px;
-	/*width: 50%;*/
 	display: block;
 	position: absolute;
 	z-index: -1;
 	left: 50px;
 }
 
+#hanging-title {
+	margin-top: 200px;
+	text-align: center;
+}
+
+#hanging-title > img {
+	width: 60%;
+}
+
+#more-button {
+	width: 14px;
+	margin-right: 10px;
+}
+
+#more-span:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+
 
 /* CAROUSEL */
 #carousel-example-generic {
-	/*margin: 0 auto;*/
 	width: 248px;
 	left: 59px;
 	top: 91px;
-	/*top: 20%;*/
 }
 
 .carousel-inner, .carousel-inner > .item {
@@ -44,32 +80,48 @@ body {
 }
 
 .carousel-inner > .item > img {
+	margin: 0 auto;
 	height: 440px;
 	width: 100%;
 }
 
-.carousel-control {
+.carousel-indicators {
+	bottom: 30px;
+}
+
+.carousel-indicators li {
+	border: 1px solid #AAA;
+}
+
+.carousel-indicators li.active {
+	background-color: #AAA;
+}
+
+.carousel-caption {
+	bottom: 30px;
+}
+
+/*.carousel-control {
 	left: auto;
 	text-align: left;
 	width: auto;
 	display: block;
-	position: absolute;
-}
+}*/
 
-.carousel-control.left, .carousel-control.right {
+/*.carousel-control.left, .carousel-control.right {
 	background-image: none;
-	/*position: relative;*/
-}
+}*/
 
-.carousel-control.right {
-	right: 0;
-}
+/*.carousel-control.right {
+	right: 20px;
+	top: 40px;
+}*/
 
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+/*.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
 	left: 0;
 	position: relative;
-}
+}*/
 
-.carousel-control span {
+/*.carousel-control span {
 	color: #AAA;
-}
+}*/
