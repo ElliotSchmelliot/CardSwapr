@@ -11,6 +11,29 @@ h2 {
 	font-family: 'Sansation-Bold';
 }
 
+header {
+    overflow: hidden;
+    padding: 20px;
+}
+
+#header-logo {
+    float: left;
+    margin-right: 30px;
+    width: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+	padding: 10px 20px;
+}
+
 #about-box {
 	margin-top: 5%;
 }
