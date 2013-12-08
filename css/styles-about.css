@@ -1,0 +1,16 @@
+@font-face { font-family: Sansation-Bold; src: url('Sansation-Bold.ttf'); }
+
+/*ABOUT PAGE*/
+h1 {
+	color: #097B36;
+	font-family: 'Sansation-Bold';
+	font-size: 50px;
+}
+
+#about-box {
+	margin-top: 7%;
+}
+
+#pictures {
+	margin-top: 4%;
+}
