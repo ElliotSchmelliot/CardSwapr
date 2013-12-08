@@ -10,6 +10,9 @@ html, body, #main-content {
 	height: 100%;
 }
 
+body {
+	margin: 0 100px;
+}
 
 /* HEADER */
 header {
@@ -17,20 +20,29 @@ header {
 	overflow: hidden;
 }
 
-#logo {
+#header-logo {
 	float: left;
-	margin-right: 50px;
+	margin-right: 30px;
+	width: 60px;
 }
 
 nav ul {
 	float: left;
-	line-height: 46px;
+	line-height: 60px;
 }
 
 nav li {
 	display: inline-block;
-	margin-right: 20px;
 } 
+
+nav a {
+	padding: 10px 20px; 
+}
+
+nav a:hover {
+	text-decoration: none;
+	background-color: #CCC;
+}
 
 
 /* HOME */
@@ -41,8 +53,9 @@ nav li {
 }
 
 #the-phone {
-	width: 293px;
-	height: 627px;
+	/*width: 293px;*/
+	/*height: 627px;*/
+	width: 240px;
 	display: block;
 	position: absolute;
 	z-index: -1;
@@ -71,23 +84,28 @@ nav li {
 
 /* CAROUSEL */
 #carousel-example-generic {
-	width: 248px;
-	left: 59px;
-	top: 91px;
+	/*width: 248px;*/
+	width: 204px;
+	/*left: 59px;*/
+	left: 55px;
+	/*top: 91px;*/
+	top: 74px;
 }
 
 .carousel-inner, .carousel-inner > .item {
-	height: 440px;
+	/*height: 440px;*/
+	height: 361px;
 }
 
 .carousel-inner > .item > img {
 	margin: 0 auto;
-	height: 440px;
+	/*height: 440px;*/
+	height: 361px;
 	width: 100%;
 }
 
-.carousel-indicators {
-	bottom: 30px;
+.carousel-indicators, .carousel-caption {
+	bottom: 20px;
 }
 
 .carousel-indicators li {
@@ -98,8 +116,8 @@ nav li {
 	background-color: #AAA;
 }
 
-.carousel-caption {
-	bottom: 30px;
+#main-content.row, #main-left {
+	height: 514px;
 }
 
 /*.carousel-control {
