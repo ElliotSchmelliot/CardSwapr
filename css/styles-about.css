@@ -1,27 +1,26 @@
 @font-face { font-family: Sansation-Bold; src: url('Sansation-Bold.ttf'); }
 
 /*ABOUT PAGE*/
-body {
-	/*background-image: url(../img/backgrounds/brushed/brushed.png);
-	background-repeat: repeat;*/
-}
-
 h1 {
 	color: #097B36;
 	font-family: 'Sansation-Bold';
 	font-size: 50px;
 }
 
+h2 {
+	font-family: 'Sansation-Bold';
+}
+
 #about-box {
-	margin-top: 7%;
+	margin-top: 5%;
 }
 
 #app {
 	margin-left: 50px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 #pictures {
-	margin-top: 4%;
+	margin-top: 2%;
 }
 
