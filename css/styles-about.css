@@ -1,6 +1,15 @@
 @font-face { font-family: Sansation-Bold; src: url('Sansation-Bold.ttf'); }
 
 /*ABOUT PAGE*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 100px;
+}
+
 h1 {
 	color: #097B36;
 	font-family: 'Sansation-Bold';
@@ -34,13 +43,9 @@ nav a {
 	padding: 10px 20px;
 }
 
-#about-box {
-	margin-top: 5%;
-}
-
 #app {
-	margin-left: 50px;
-	margin-top: 20px;
+	margin-left: 40px;
+	margin-top: 60px;
 }
 
 #pictures {
