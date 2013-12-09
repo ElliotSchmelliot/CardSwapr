@@ -1,3 +1,4 @@
+@font-face { font-family: Sansation-Bold; src: url('Sansation-Bold.ttf'); }
 
 /* GLOBAL */
 * {
@@ -12,6 +13,19 @@ html, body, #main-content {
 #sub-body {
 	margin: 0 100px;
 	padding-top: 40px;
+}
+
+h1, h2, h3 {
+	font-family: 'Sansation-Bold';
+}
+
+h1 {
+	color: #097B36;
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 20px;
 }
 
 
@@ -53,7 +67,6 @@ nav a:hover {
 }
 
 .header-divider {
-	/*clear: both;*/
 	position: absolute;
 	width: 100%;
 	left: 0;
@@ -184,22 +197,29 @@ nav a:hover {
 	height: 361px;
 	width: 100%;
 }
+	
+	/* CAROUSEL INDICATORS */
+	.carousel-indicators {
+		bottom: 20px;
+	}
 
-.carousel-caption {
-	color: #777;
-	text-shadow: none;
+	.carousel-indicators li {
+		border: 1px solid #AAA;
+	}
+
+	.carousel-indicators li.active {
+		background-color: #AAA;
+	}
+
+
+/* ABOUT */
+#app {
+	margin-left: 40px;
+	margin-top: 80px;
 }
 
-.carousel-indicators, .carousel-caption {
-	bottom: 20px;
-}
-
-.carousel-indicators li {
-	border: 1px solid #AAA;
-}
-
-.carousel-indicators li.active {
-	background-color: #AAA;
+.about-pic {
+	padding-bottom: 10px;
 }
 
 
