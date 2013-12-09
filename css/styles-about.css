@@ -22,7 +22,10 @@ h2 {
 
 header {
     overflow: hidden;
-    padding: 20px;
+    padding: 15px 100px;
+	margin-bottom: 20px;
+    background-color: rgba(26, 135, 55, .2);
+	box-shadow: 2px 2px 5px #CCC;
 }
 
 #header-logo {
@@ -32,7 +35,9 @@ header {
 }
 
 nav ul {
-    line-height: 60px;
+    float: left;
+	line-height: 60px;
+	margin: 0;
 }
 
 nav li {
@@ -41,6 +46,17 @@ nav li {
 
 nav a {
 	padding: 10px 20px;
+	color: #3A784A;
+	font-size: 12pt;
+}
+
+.header-divider {
+	clear: both;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 90px;
+	border-bottom: 1px solid #1A8737;
 }
 
 #app {
