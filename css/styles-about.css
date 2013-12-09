@@ -6,8 +6,8 @@
 	padding: 0;
 }
 
-body {
-	margin: 0 100px;
+html, body, #main-content {
+	height: 100%;
 }
 
 h1, h2, h3 {
@@ -24,9 +24,9 @@ h3 {
 }
 
 header {
-    overflow: hidden;
     padding: 15px 100px;
 	margin-bottom: 20px;
+	overflow: hidden;
     background-color: rgba(26, 135, 55, .2);
 	box-shadow: 2px 2px 5px #CCC;
 }
@@ -53,8 +53,13 @@ nav a {
 	font-size: 12pt;
 }
 
+nav a:hover {
+	text-decoration: none;
+	background-color: #FFF;
+	color: #222;
+}
+
 .header-divider {
-	clear: both;
 	position: absolute;
 	width: 100%;
 	left: 0;
