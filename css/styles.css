@@ -10,11 +10,6 @@ html, body, #sub-body, #main-content {
 	height: 100%;
 }
 
-#sub-body {
-	margin: 0 100px;
-	padding-top: 120px;
-}
-
 h1, h2, h3 {
 	font-family: 'Sansation-Bold';
 }
@@ -81,12 +76,17 @@ nav a:hover {
 
 
 /* HOME */
-#main-content {
-	min-height: 750px;
-	min-width: 850px;
+#sub-body {
+	margin: 0 100px;
+	padding-top: 120px;
+	min-height: 700px;
 }
 
-#main-content.row, #main-left {
+#main-content .row {
+	height: 90%;
+}
+
+#main-left {
 	height: 514px;
 }
 
@@ -230,8 +230,11 @@ nav a:hover {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 990px) {
+	#sub-body {
+		min-height: 870px;
+	}
+
 	#main-content {
-		min-width: inherit;
 		padding-left: 25%;
 	}
 

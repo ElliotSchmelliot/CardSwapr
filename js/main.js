@@ -5,5 +5,8 @@ $(function() {
 		}, 2000);
 	});
 
-	$(".row").fadeIn();
+			//bind("load", function () { $(this).fadeIn(); });
+
+		// $("body").css("background-color", "blue");
+
 });
