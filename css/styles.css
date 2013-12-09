@@ -6,13 +6,13 @@
 	padding: 0;
 }
 
-html, body, #main-content {
+html, body, #sub-body, #main-content {
 	height: 100%;
 }
 
 #sub-body {
 	margin: 0 100px;
-	padding-top: 40px;
+	padding-top: 120px;
 }
 
 h1, h2, h3 {
@@ -36,6 +36,8 @@ header {
 	overflow: hidden;
 	background-color: rgba(26, 135, 55, .2);
 	box-shadow: 2px 2px 5px #CCC;
+	position: absolute;
+	width: 100%;
 }
 
 #header-logo {
