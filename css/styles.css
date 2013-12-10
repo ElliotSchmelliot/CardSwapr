@@ -439,6 +439,11 @@ footer {
 /*FAQ PAGE*/
 .openSans {
 	font-family: 'Open Sans';
+	margin-left: 35px;
+}
+
+.faqText {
+	color: #097B36;
 }
 
 @media screen and (max-width: 500px) {
