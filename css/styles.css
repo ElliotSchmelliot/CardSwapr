@@ -436,11 +436,6 @@ footer {
 	}
 }
 
-/*FAQ PAGE*/
-.openSans {
-	font-family: 'Open Sans';
-}
-
 @media screen and (max-width: 500px) {
 	#sub-body {
 		margin: 0;
