@@ -262,6 +262,60 @@ nav a:hover, nav a.active-head-link {
 	padding-bottom: 10px;
 }
 
+.greenText {
+	color: #097B36;
+}
+
+/*FEATURES PAGE*/
+.iphoneSize {
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 15px;
+	
+}
+
+.aboutText {
+	text-align: center;
+	margin-left: 40px;
+}
+
+.tab {
+	text-align: center;
+}
+
+.para {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.para li {
+	padding-bottom: 25px;
+}
+
+.title {
+	text-align: center;
+	color: #097B36;
+
+}
+
+.topLogo {
+	margin-right: 5px;
+}
+
+.headerFeatures {
+	text-align: center;
+	font-size: 62px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.jumbotron {
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 990px) {
@@ -349,46 +403,6 @@ nav a:hover, nav a.active-head-link {
 		width: 100%;
 	}
 }
-
-/*FEATURES PAGE*/
-.iphoneSize {
-	width: 50%;
-	margin-left: 25%;
-	
-}
-
-.tab {
-	text-align: center;
-}
-
-.para {
-	font-size: 20px;
-	margin-left: 50px;
-}
-
-.para li {
-	padding-bottom: 25px;
-}
-
-.title {
-	text-align: center;
-	color: green;
-
-}
-
-.topLogo {
-	margin-right: 5px;
-}
-
-.headerFeatures {
-	text-align: center;
-	font-size: 62px;
-	margin-bottom: 20px;
-	color: black;
-}
-
-
-
 
 /*FAQ PAGE*/
 .openSans {
