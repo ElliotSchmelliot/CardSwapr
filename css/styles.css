@@ -339,12 +339,38 @@ nav a:hover, nav a.active-head-link {
 }
 
 
+/*FAQ PAGE*/
+.openSans {
+	font-family: 'Open Sans';
+	margin-left: 35px;
+}
+
+.faqText {
+	color: #097B36;
+}
+
+
 /* FOOTER */
 footer {
 	padding: 15px 100px;
 	overflow: hidden;
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERIES */
