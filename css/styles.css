@@ -330,6 +330,7 @@ nav a:hover, nav a.active-head-link {
 footer {
 	padding: 15px 100px;
 	overflow: hidden;
+	text-align: center;
 }
 
 
