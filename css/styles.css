@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
 @font-face { font-family: Sansation-Bold; src: url('../fonts/sansation/Sansation-Bold.ttf'); }
 
 /* GLOBAL */
@@ -6,6 +8,9 @@
 	padding: 0;
 }
 
+body {
+	font-family: "Open Sans";
+}
 html, body, #sub-body, #main-content {
 	height: 100%;
 }
