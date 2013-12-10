@@ -169,7 +169,7 @@ nav a:hover, nav a.active-head-link {
 		}
 
 		.info-block {
-			margin-bottom: 120px;
+			margin-bottom: 25px;
 			clear: both;
 			overflow: hidden;
 			font-size: 14pt;
@@ -215,7 +215,7 @@ nav a:hover, nav a.active-head-link {
 
 		#lower-phone-area {
 			text-align: center;
-			padding-top: 100px;
+			padding-top: 22px;
 		}
 	
 		#lower-phone-area img {
@@ -290,6 +290,7 @@ nav a:hover, nav a.active-head-link {
 
 .tab {
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .indent {
@@ -344,6 +345,11 @@ nav a:hover, nav a.active-head-link {
 
 .extraTab {
 	margin-top: 120px;
+}
+
+.center {
+	text-align: center;
+	color: #097B36; 
 }
 
 
