@@ -140,7 +140,7 @@ nav a:hover, nav a.active-head-link {
 		cursor: pointer;
 	}
 
-	#slogan-download {
+	#slogan-download, #free-slogan {
 		width: 402px;
 		text-align: center;
 	}
@@ -148,6 +148,15 @@ nav a:hover, nav a.active-head-link {
 	#catchy-motto {
 		font-style: italic;
 		font-size: 18pt;
+	}
+
+	#free-slogan {
+		font-size: 24pt;
+	}
+
+	#free-slogan span {
+		color: #097B36;
+		font-weight: bold;
 	}
 
 		/* LOWER CONTENT */
@@ -263,6 +272,13 @@ nav a:hover, nav a.active-head-link {
 }
 
 
+/* FOOTER */
+footer {
+	padding: 15px 100px;
+	overflow: hidden;
+}
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 990px) {
 	#sub-body {
@@ -284,11 +300,13 @@ nav a:hover, nav a.active-head-link {
 
 	#hanging-title {
 		width: 370px;
+		padding-top: 50px;
 	}
 
 	#lower-content {
 		padding-left: 50px;
 		padding-right: 50px;
+		margin-top: 30px;
 	}
 
 	.info-block {
