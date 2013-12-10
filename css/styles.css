@@ -269,7 +269,7 @@ nav a:hover, nav a.active-head-link {
 /*FEATURES PAGE*/
 .iphoneSize {
 	width: 50%;
-	margin-left: 25%;
+	margin-left: 24%;
 	margin-bottom: 15px;
 	
 }
@@ -288,7 +288,7 @@ nav a:hover, nav a.active-head-link {
 	margin-left: 50px;
 }
 
-.para li {
+.parag{
 	padding-bottom: 25px;
 }
 
@@ -314,6 +314,19 @@ nav a:hover, nav a.active-head-link {
 	width: 75%;
 	margin: 0 auto;
 	padding: 10px;
+}
+
+.browse {
+	margin-top: 35px;
+}
+
+#browsePhone {
+	margin-left: 25%;
+}
+
+.tabbedLi {
+	margin-left: 40px;
+	margin-bottom: 0px;
 }
 
 
