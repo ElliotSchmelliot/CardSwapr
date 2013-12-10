@@ -330,9 +330,49 @@ nav a:hover, nav a.active-head-link {
 	}
 }
 
+/*FEATURES PAGE*/
+.iphoneSize {
+	width: 50%;
+	margin-left: 25%;
+	
+}
+
+.tab {
+	text-align: center;
+}
+
+.para {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.para li {
+	padding-bottom: 25px;
+}
+
+.title {
+	text-align: center;
+	color: green;
+
+}
+
+.topLogo {
+	margin-right: 5px;
+}
+
+.headerFeatures {
+	text-align: center;
+	font-size: 62px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+
+
+
 /*FAQ PAGE*/
 .openSans {
-	font-family: 'Open-Sans';
+	font-family: 'Open Sans';
 }
 
 @media screen and (max-width: 500px) {
