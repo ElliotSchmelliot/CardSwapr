@@ -14,6 +14,7 @@ body {
 	/*font-family: "Open Sans";*/
 	/*font-family: "Alegreya";*/
 	font-family: "Alegreya Sans";
+	font-size: 14pt;
 }
 
 html, body, #sub-body, #main-content {
@@ -31,6 +32,15 @@ h1 {
 
 h3 {
 	font-size: 20px;
+}
+
+.btn {
+	font-size: 16pt;
+	background-color: #097430;
+}
+
+.btn:hover {
+	background-color: #0A8B2E;
 }
 
 
@@ -67,7 +77,8 @@ nav li {
 nav a {
 	padding: 10px 20px;
 	color: #3A784A;
-	font-size: 12pt; 
+	font-size: 14pt;
+	border-radius: 4px;
 }
 
 nav a:hover, nav a.active-head-link {
@@ -116,20 +127,15 @@ nav a:hover, nav a.active-head-link {
 	/* HANGING TITLE */
 	#hanging-title {
 		text-align: center;
-		margin: 20px 0;
 	}
 
-	#hanging-title > img {
-		width: 60%;
-	}
-
-	#more-button {
-		/*width: 14px;*/
-		/*margin-right: 10px;*/
+	#hanging-title img {
+		width: 20px;
+		margin-right: 10px;
 	}
 
 	#more-span:hover {
-		opacity: .5;
+		opacity: .7;
 		cursor: pointer;
 	}
 
@@ -140,6 +146,7 @@ nav a:hover, nav a.active-head-link {
 
 	#catchy-motto {
 		font-style: italic;
+		font-size: 18pt;
 	}
 
 		/* LOWER CONTENT */
@@ -155,7 +162,7 @@ nav a:hover, nav a.active-head-link {
 			margin-bottom: 120px;
 			clear: both;
 			overflow: hidden;
-			font-size: 12pt;
+			font-size: 14pt;
 		}
 
 		.info-left {
@@ -194,6 +201,22 @@ nav a:hover, nav a.active-head-link {
 
 		.glyphicon {
 			font-size: 32pt;
+		}
+
+		#lower-phone-area {
+			text-align: center;
+			padding-top: 100px;
+		}
+	
+		#lower-phone-area img {
+			/*width: 100%;*/
+			width: 240px;
+			/*display: block;*/
+		}
+
+		#lower-phone-area button {
+			display: block;
+			margin: 10px auto;
 		}
 
 
@@ -324,11 +347,6 @@ nav a:hover, nav a.active-head-link {
 	.info-desc {
 		width: 100%;
 	}
-}
-
-/*FAQ PAGE*/
-.openSans {
-	font-family: 'Open-Sans';
 }
 
 @media screen and (max-width: 500px) {
