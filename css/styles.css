@@ -16,10 +16,6 @@ body {
 	font-family: "Alegreya Sans";
 }
 
-.info-block.info-desc {
-	font-size: 150%;
-}
-
 html, body, #sub-body, #main-content {
 	height: 100%;
 }
@@ -128,8 +124,8 @@ nav a:hover, nav a.active-head-link {
 	}
 
 	#more-button {
-		width: 14px;
-		margin-right: 10px;
+		/*width: 14px;*/
+		/*margin-right: 10px;*/
 	}
 
 	#more-span:hover {
