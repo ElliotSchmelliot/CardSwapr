@@ -167,6 +167,11 @@ nav a:hover, nav a.active-head-link {
 			padding: 40px 200px 0 200px;
 			overflow: hidden;
 		}
+	
+		.tab {
+			text-align: center;
+			margin-bottom: 20px;
+		}
 
 		.info-block {
 			margin-bottom: 25px;
@@ -275,6 +280,10 @@ nav a:hover, nav a.active-head-link {
 	color: #097B36;
 }
 
+#about-container, #faq {
+	min-height: 100%;
+}
+
 /*FEATURES PAGE*/
 .iphoneSize {
 	width: 50%;
@@ -286,11 +295,6 @@ nav a:hover, nav a.active-head-link {
 .aboutText {
 	text-align: left;
 	margin-left: 40px;
-}
-
-.tab {
-	text-align: center;
-	margin-bottom: 10px;
 }
 
 .indent {
@@ -354,11 +358,6 @@ nav a:hover, nav a.active-head-link {
 
 
 /*FAQ PAGE*/
-.openSans {
-	font-family: 'Open Sans';
-	margin-left: 35px;
-}
-
 .faqText {
 	color: #097B36;
 }
@@ -369,6 +368,12 @@ footer {
 	padding: 15px 100px;
 	overflow: hidden;
 	text-align: center;
+}
+
+.gray-footer {
+	background-color: #EEE;
+	border-top: 1px solid #AAA;
+	margin-top: 20px;
 }
 
 
