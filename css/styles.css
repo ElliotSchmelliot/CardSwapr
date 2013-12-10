@@ -284,12 +284,16 @@ nav a:hover, nav a.active-head-link {
 }
 
 .aboutText {
-	text-align: center;
+	text-align: left;
 	margin-left: 40px;
 }
 
 .tab {
 	text-align: center;
+}
+
+.indent {
+	margin-left: 30px;
 }
 
 .para {
@@ -336,6 +340,10 @@ nav a:hover, nav a.active-head-link {
 .tabbedLi {
 	margin-left: 40px;
 	margin-bottom: 0px;
+}
+
+.extraTab {
+	margin-top: 120px;
 }
 
 
