@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+=======
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+@font-face { font-family: Sansation-Bold; src: url('../fonts/sansation/Sansation-Bold.ttf'); }
+>>>>>>> 61699def8e4726efa58ae1e141f51e944173c05f
 
 /* GLOBAL */
 * {
@@ -6,17 +12,33 @@
 	padding: 0;
 }
 
-html, body, #main-content {
+body {
+	font-family: "Open Sans";
+}
+html, body, #sub-body, #main-content {
 	height: 100%;
 }
 
-#sub-body {
-	margin: 0 100px;
-	padding-top: 40px;
+h1, h2, h3 {
+	font-family: 'Sansation-Bold';
+}
+
+h1 {
+	color: #097B36;
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 20px;
 }
 
 
 /* HEADER */
+#abs-header {
+	position: absolute;
+	width: 100%;
+}
+
 header {
 	padding: 15px 100px;
 	margin-bottom: 20px;
@@ -47,14 +69,13 @@ nav a {
 	font-size: 12pt; 
 }
 
-nav a:hover {
+nav a:hover, nav a.active-head-link {
 	text-decoration: none;
 	background-color: #FFF;
 	color: #222;
 }
 
 .header-divider {
-	/*clear: both;*/
 	position: absolute;
 	width: 100%;
 	left: 0;
@@ -64,12 +85,17 @@ nav a:hover {
 
 
 /* HOME */
-#main-content {
-	min-height: 750px;
-	min-width: 850px;
+#sub-body {
+	margin: 0 100px;
+	padding-top: 120px;
+	min-height: 700px;
 }
 
-#main-content.row, #main-left {
+#main-content .row {
+	height: 90%;
+}
+
+#main-left {
 	height: 514px;
 }
 
@@ -118,6 +144,7 @@ nav a:hover {
 		/* LOWER CONTENT */
 		#lower-content {
 			border-top: 1px solid #AAA;
+			border-bottom: 1px solid #AAA;
 			background-color: #EEE;
 			padding: 40px 200px 0 200px;
 			overflow: hidden;
@@ -185,29 +212,39 @@ nav a:hover {
 	height: 361px;
 	width: 100%;
 }
+	
+	/* CAROUSEL INDICATORS */
+	.carousel-indicators {
+		bottom: 20px;
+	}
 
-.carousel-caption {
-	color: #777;
-	text-shadow: none;
+	.carousel-indicators li {
+		border: 1px solid #AAA;
+	}
+
+	.carousel-indicators li.active {
+		background-color: #AAA;
+	}
+
+
+/* ABOUT */
+#app {
+	margin-left: 40px;
+	margin-top: 80px;
 }
 
-.carousel-indicators, .carousel-caption {
-	bottom: 20px;
-}
-
-.carousel-indicators li {
-	border: 1px solid #AAA;
-}
-
-.carousel-indicators li.active {
-	background-color: #AAA;
+.about-pic {
+	padding-bottom: 10px;
 }
 
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 990px) {
+	#sub-body {
+		min-height: 870px;
+	}
+
 	#main-content {
-		min-width: inherit;
 		padding-left: 25%;
 	}
 

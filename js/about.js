@@ -1,7 +1,7 @@
 /*JS FOR POPOVER FUNCTIONALITY*/
 
 $(function(){
-	$('.pic').popover({
+	$('.about-pic').popover({
         placement : 'top'
     });
 });
