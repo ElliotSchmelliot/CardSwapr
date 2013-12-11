@@ -104,6 +104,10 @@ nav a:hover, nav a.active-head-link {
 	min-height: 700px;
 }
 
+#welcome.tab {
+	font-size: 45px;
+}
+
 #main-content .row {
 	height: 90%;
 }
@@ -148,6 +152,7 @@ nav a:hover, nav a.active-head-link {
 	#catchy-motto {
 		font-style: italic;
 		font-size: 18pt;
+		margin: 0 0 0 0;
 	}
 
 	#free-slogan {
