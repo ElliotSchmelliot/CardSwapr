@@ -6,6 +6,8 @@
 
 		<!-- Our css -->
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<link rel="shortcut icon" href="img/app-small.jpg">
 	</head>
 
 	<body>
@@ -13,19 +15,20 @@
 			<a href="index.html"><img id="header-logo" src="img/app-small-alpha.jpg"></a>
 			<nav>
 				<ul>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="features.html">Features</a></li>
-					<li><a href="about.html">About Us</a></li>
 					<li><a class="active-head-link" href="faq.html">FAQ</a></li>
+					<li><a href="about.html">About Us</a></li>
 				</ul>
 			</nav>
 			<div class="header-divider"></div>
 		</header>
 
-		<div class="container">
+		<div id="faq" class="container">
 			<div class="row" id="about-box"> 
 				<div class="col-md-1"></div>
 				<div class="col-md-10">
-					<h1>FAQ</h1>
+					<h1 class="headerFeatures"><img src="img/logo.jpg"><br>Frequently Asked Questions</h1>
 				</div>
 				<div class="col-md-1"></div>
 			</div>
@@ -33,27 +36,41 @@
 			<div class="row" id="pictures">
 				<div class="col-md-1"></div>
 				<div class="col-md-9">
-					<h3>How can I make sure the person I'm trading with doesn't spend my new card after the trade?</h3>
+					<h3 class="faqText">How can I make sure the person I'm trading with doesn't spend my new card after the trade?</h3>
+					<p class="openSans">We check the balance of your gift card as every aspect of the trade. When you upload it through when you sell. After the transaction, if the buyer uses the card without you knowing, you are able to tell us within the application. That effectively holds the buyer&#39;s PayPal account until the dispute is resolved between you and the buyer. </p>
 					
-					<h3>How do you check the balance of my gift card?</h3>
+					<h3 class="faqText">How do you check the balance of my gift card?</h3>
+					<p class="openSans">We use the Gyft API to verify the balance off 200 different types of gift cards. <a href="http://www.gyft.com/shop-for-gift-cards/#">Those can be viewed here</a>. We check the balance when you add the card initially and when you try and sell or trade the card.</p>
 
-					<h3>How do you keep my money safe?</h3>
+					<h3 class="faqText">Do I have to link my PayPal account to use CardSwapr?</h3>
+					<p class="openSans">With version 1.0, yes. However, in the next major release, slated for Spring 2014, we want users to not have to link any accounts in order to trade gift cards. Although, in order to ensure safety for all CardSwapr users, we initially require you to have an active PayPal account linked.</p>
 
-					<h3>Do I have to link my PayPal account to use CardSwapr?</h3>
-					<p>With version 1.0, yes. However, in the next major release, slated for Spring 2014, we want users to not have to link any accounts in order to trade gift cards. Although, in order to ensure safety for all CardSwapr users, we initially require you to have an active PayPal account linked.</p>
+					<h3 class="faqText">What kind of cards can I buy from CardSwapr? And which cards can I check the balance of in CardSwapr?</h3>
+					<p class="openSans">Here is a <a href="http://www.gyft.com/shop-for-gift-cards/#">list off all gift cards we support</a> from launch</p>
 
-					<h3>What kind of cards can I buy from CardSwapr? And which cards can I check the balance of in CardSwapr?</h3>
+					<h3 class="faqText">How do you ensure users are held accountable for unsatisfactory trading behavior?</h3>
+					<p class="openSans">If a user had a poor enough selling record with many complaints, we ban that user from the CardSwapr system.</p>
 
-					<h3>How do you ensure users are held accountable for unsatisfactory trading behavior?</h3>
+					<h3 class="faqText">What's next for CardSwapr?</h3>
+					<p class="openSans">We're hoping to release an exciting CardSwapr 2.0 in Spring 2014.</p>
 
-					<h3>What's next for CardSwapr?</h3>
-					<p>We're hoping to release an exciting CardSwapr 2.0 in Spring 2014.</p>
+				
 				</div>
 				<div class="col-md-2"></div>
 			</div>
 		</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="js/about.js"></script>
+
+		<footer class="gray-footer">
+			<div class="col-md-4">- &#169; 2014 CardSwapr LLC</div>
+			<div class="col-md-4">
+				- Comments?
+				<a href="mailto:info@cardswapr.com">info@cardswapr.com</a>
+			</div>
+			<div class="col-md-4">- Patent Pending</a></div>
+		</footer>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="js/about.js"></script>
 	</body>
 </html>
