@@ -25,6 +25,14 @@ h1, h2, h3 {
 	font-family: 'Sansation-Bold';
 }
 
+.header-right {
+	text-align: right;
+	color: #097B36;
+	padding-top: 0px;
+	margin-top: 15px;
+
+}
+
 h1 {
 	color: #097B36;
 	font-size: 50px;
@@ -40,9 +48,17 @@ h3 {
 	border-color: #095B33;
 }
 
+#right {
+	font-size: 16pt;
+	background-color: black;
+	border-color: #095B33;
+}
+
 .btn:hover {
 	background-color: #0A8B2E;
 }
+
+
 
 
 /* HEADER */
@@ -430,6 +446,31 @@ footer {
 	.info-block {
 		padding: 0;
 	}
+
+	.header-divider {
+	border-bottom: none;
+	}
+
+	.slogon {
+		display: none;
+	}
+
+		#lower-phone-area {
+		margin-bottom: 20px;
+	}
+
+	#sub-body {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.slogon {
+		display: none;
+	}
+
+
 }
 
 @media screen and (max-width: 745px) {
@@ -484,6 +525,14 @@ footer {
 	.info-desc {
 		width: 100%;
 	}
+
+	.header-divider {
+	border-bottom: none;
+	}
+
+	#lower-phone-area {
+		margin-bottom: 20px;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -491,6 +540,9 @@ footer {
 		margin: 0;
 	}
 
+.header-divider {
+	border-bottom: none;
+}
 	#main-content {
 		padding-left: 5%;
 	}
